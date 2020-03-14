@@ -26,7 +26,7 @@ public class IterateHashMapExample {
 		Iterator<Integer> iterator = coursesMap.keySet().iterator();
 		while (iterator.hasNext()) {
 			Integer key = iterator.next();
-			System.out.println(key);
+			System.out.print(key );
 			System.out.println(coursesMap.get(key));
 		}
 
