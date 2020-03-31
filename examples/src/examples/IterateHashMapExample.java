@@ -21,6 +21,7 @@ public class IterateHashMapExample {
 		coursesMap.put(3, "Java");
 		coursesMap.put(4, "Spring Framework");
 		coursesMap.put(5, "Hibernate ORM framework");
+	
 
 		// 2. Iterate through HashMap KeySet using Iterator
 		Iterator<Integer> iterator = coursesMap.keySet().iterator();
